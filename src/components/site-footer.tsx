@@ -23,6 +23,11 @@ export default function SiteFooter() {
             name: "Twitter",
             url: MY_DATA.contact.twitter,
             logo: Icons.twitter
+        },
+        {
+            name: "Bluesky",
+            url: MY_DATA.contact.bluesky,
+            logo: Icons.bluesky
         }
     ];
     return (

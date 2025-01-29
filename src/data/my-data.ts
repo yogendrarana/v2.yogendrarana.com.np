@@ -17,6 +17,7 @@ export const MY_DATA = {
         github: "https://github.com/yogendrarana",
         linkedin: "https://www.linkedin.com/in/yogendra-rana/",
         twitter: "https://twitter.com/yoogendra_rana",
+        bluesky: "https://bsky.app/profile/yogendrarana.bsky.social",
     },
     education: [
         {

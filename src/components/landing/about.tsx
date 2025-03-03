@@ -16,11 +16,19 @@ const About = () => {
 
                 {/* About detail */}
                 <div className="flex text-gray-500 sm:flex-col-reverse">
-                    <p>{MY_DATA.professionalSummary}</p>
+                    <p>
+                        I am a full stack web developer from Pokhara, Nepal with 2+ years experience
+                        in JavaScript/TS and its frameworks like React, Next, Node, Express, etc.
+                    </p>
                 </div>
 
                 {/* faq */}
-                <Accordion defaultValue={MY_DATA.faq[0].question} type="single" collapsible className="w-full">
+                <Accordion
+                    defaultValue={MY_DATA.faq[0].question}
+                    type="single"
+                    collapsible
+                    className="w-full"
+                >
                     {MY_DATA.faq.map((faq, index) => {
                         return (
                             <AccordionItem key={index} value={faq.question} className="border-none">

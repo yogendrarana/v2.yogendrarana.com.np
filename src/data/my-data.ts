@@ -6,9 +6,7 @@ export const MY_DATA = {
     location: "Pokhara, Nepal",
     locationLink: "https://www.google.com/maps/place/pokhara",
     about: "Full Stack Developer",
-    shortSummary: "Web developer from Nepal",
-    professionalSummary:
-        "I am a full stack web developer from Pokhara, Nepal with +2 years experience in JavaScript/TS and its frameworks like React, Next, Node, Express, and Nest. Also familiar with Go and its backend framework, Gin.",
+
     avatarUrl: " https://github.com/yogendrarana.png",
     personalWebsiteUrl: "https://www.yogendrarana.com.np/",
     cvUrl: "https://cv.yogendrarana.com.np",
@@ -17,7 +15,7 @@ export const MY_DATA = {
         github: "https://github.com/yogendrarana",
         linkedin: "https://www.linkedin.com/in/yogendra-rana/",
         twitter: "https://twitter.com/yoogendra_rana",
-        bluesky: "https://bsky.app/profile/yogendrarana.bsky.social",
+        bluesky: "https://bsky.app/profile/yogendrarana.bsky.social"
     },
     education: [
         {
@@ -53,6 +51,15 @@ export const MY_DATA = {
         "Ubuntu"
     ],
     projects: [
+        {
+            title: "Node Blueprint",
+            techStack: ["React", "Node.js"],
+            description:
+                "Node Blueprint helps you scaffold Node.js applications with your preferred framework, database, and ORM in just one command.",
+            image: LightBulb,
+            liveLink: "https://node-blueprint-web.vercel.app/",
+            githubLink: "https://github.com/yogendrarana/node-blueprint"
+        },
         {
             title: "Craft UI",
             techStack: ["Next.js", "Tailwind CSS"],
@@ -98,15 +105,15 @@ export const MY_DATA = {
     ],
     faq: [
         {
-            question: "My educational qualification.",
+            question: "My Education",
             answer: "B.Sc. in Computer Science and Information Technology, Tribhuvan University, Nepal."
         },
         {
-            question: "My tech stack.",
+            question: "My Tech stack",
             answer: "React.js, Next.js, Node.js, and Express.js. I work with both MongoDB and PostgreSQL for databases."
         },
         {
-            question: "My professional experience.",
+            question: "My Experience",
             answer: "I began my professional career in early 2023."
         }
     ]

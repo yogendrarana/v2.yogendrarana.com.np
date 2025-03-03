@@ -71,7 +71,7 @@ export const MY_DATA = {
         },
         {
             title: "Feedmo",
-            techStack: ["Next.js", "radix UI", "Shad CN", "Auth.js", "MongoDB", "Resend", "Stripe"],
+            techStack: ["Next.js", "Radix UI", "Shad CN", "Auth.js", "MongoDB", "Resend", "Stripe"],
             description:
                 "An open source project helping web developers collect feedbacks from their users.",
             image: LightBulb,

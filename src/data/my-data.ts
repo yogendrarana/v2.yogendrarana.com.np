@@ -57,7 +57,7 @@ export const MY_DATA = {
             description:
                 "Node Blueprint helps you scaffold Node.js applications with your preferred framework, database, and ORM in just one command.",
             image: LightBulb,
-            liveLink: "https://node-blueprint-web.vercel.app/",
+            liveLink: "https://node-blueprint.vercel.app/",
             githubLink: "https://github.com/yogendrarana/node-blueprint"
         },
         {

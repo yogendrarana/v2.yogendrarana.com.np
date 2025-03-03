@@ -31,7 +31,7 @@ export default function SiteFooter() {
         }
     ];
     return (
-        <footer className=" p-12 relative border rounded-xl overflow-hidden">
+        <footer className="p-12 relative border rounded-xl overflow-hidden">
             <Marquee duration={20} repeat={2} direction="left" className="w-full font-light mb-16">
                 {data.map((item, index) => (
                     <div key={index} className="flex flex-col items-center">

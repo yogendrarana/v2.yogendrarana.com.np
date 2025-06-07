@@ -8,11 +8,13 @@ import Container from "@/components/container";
 const HomePage = () => {
     return (
         <Container>
-            <SiteHeader />
-            <Hero />
-            <About />
-            <Projects />
-            <SiteFooter />
+            <div className="flex flex-col items-center justify-between gap-10 md:gap-0">
+                <SiteHeader />
+                <Hero />
+                <About />
+                <Projects />
+                <SiteFooter />
+            </div>
         </Container>
     );
 };

@@ -105,16 +105,16 @@ export const MY_DATA = {
     ],
     faq: [
         {
-            question: "My Education",
-            answer: "B.Sc. in Computer Science and Information Technology, Tribhuvan University, Nepal."
-        },
-        {
             question: "My Tech stack",
-            answer: "React.js, Next.js, Node.js, and Express.js. I work with both MongoDB and PostgreSQL for databases."
+            answer: "React.js, Next.js, Node.js, and Express.js. I work with both MongoDB and PostgreSQL for databases. I also explore Go when I have time."
         },
         {
             question: "My Experience",
-            answer: "I began my professional career in early 2023."
-        }
+            answer: "I began my professional career in early 2023 as frontend React.js intern . Since then I have worked mostly as a full stack developer."
+        },
+        {
+            question: "My Education",
+            answer: "B.Sc. in Computer Science and Information Technology, Tribhuvan University, Nepal."
+        },
     ]
 };

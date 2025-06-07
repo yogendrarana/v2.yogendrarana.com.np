@@ -31,13 +31,13 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
                             href={project.liveLink}
                             target="_blank"
                             rel="noopener"
-                            className="group flex items-center gap-[6px] font-medium decoration-neutral-500 decoration-dotted underline-offset-[5px] hover:underline"
+                            className="group flex items-center gap-[6px] font-medium decoration-neutral-500 decoration-dotted underline-offset-[5px] underline"
                         >
                             <span>{project.title}</span>
                             <ArrowRight
                                 size={16}
                                 strokeWidth={2}
-                                className="opacity-50 group-hover:opacity-100 group-hover:translate-x-[2px] -rotate-45 duration-200"
+                                className="opacity-50 group-hover:opacity-100 group-hover:translate-x-[3px] -rotate-45 duration-200"
                             />
                         </Link>
                     </div>

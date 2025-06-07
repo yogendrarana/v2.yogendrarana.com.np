@@ -32,7 +32,7 @@ const socials = [
 
 export default function SiteFooter() {
     return (
-        <footer className="p-12 mb-12 relative border rounded-xl overflow-hidden">
+        <footer className="w-full p-12 mb-12 relative border rounded-xl overflow-hidden">
             <div className="w-full mb-8 font-medium">Get in touch ...</div>
 
             {/* Main footer content */}

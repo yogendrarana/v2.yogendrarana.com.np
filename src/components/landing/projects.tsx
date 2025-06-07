@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { MY_DATA } from "@/data/my-data";
+import { MY_DATA } from "@/config/data";
 import { ArrowRight } from "lucide-react";
 import ProjectCard from "@/components/project-card";
 import SectionContainer from "../section-container";

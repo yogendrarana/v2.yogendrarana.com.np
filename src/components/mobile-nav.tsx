@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import { X, Menu } from "lucide-react";
-import { nav_menu } from "@/config/nav";
+import { nav_menu } from "@/config/site";
 import { motion, AnimatePresence } from "framer-motion";
-import { MY_DATA } from "@/data/my-data";
+import { MY_DATA } from "@/config/data";
 import { Icons } from "./icons";
 
 export default function MobileNav() {

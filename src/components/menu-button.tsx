@@ -9,14 +9,14 @@ export default function MenuButton() {
     return (
         <div
             onClick={toggleMenu}
-            className="h-[45px] w-[45px] cursor-pointer overflow-hidden bg-white border-1"
+            className="h-[45px] w-[45px] cursor-pointer overflow-hidden bg-white border"
         >
             <motion.div
                 className={`
                     relative 
                     h-full w-full 
                     text-[1.3rem] 
-                    flex items-center justify-center gap-[0.75rem]
+                    flex items-center justify-center gap-3
                     transition-all ease-in-out duration-500
                     ${isMenuOpen ? "" : ""}
                 `}

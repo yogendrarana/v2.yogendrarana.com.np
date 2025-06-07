@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { MY_DATA } from "@/data/my-data";
+import { MY_DATA } from "@/config/data";
 import { AccordionContent, AccordionItem, AccordionTrigger, Accordion } from "../ui/accordion";
 
 const About = () => {

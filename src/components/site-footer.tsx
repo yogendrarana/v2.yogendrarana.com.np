@@ -1,72 +1,50 @@
 import Link from "next/link";
 import Marquee from "./marquee";
-import { MY_DATA } from "@/data/my-data";
+import { Icons } from "./icons";
+import { MY_DATA } from "@/config/data";
 import Magnetic from "./magnetic";
 import AnimatedLink from "./animated-link";
-import { Icons } from "./icons";
+import Socials from "./socials";
 
 const data = ["Get in touch *", "Get in touch *", "Get in touch *", "Get in touch *"];
+const socials = [
+    {
+        name: "GitHub",
+        href: MY_DATA.contact.github,
+        logo: Icons.github
+    },
+    {
+        name: "LinkedIn",
+        href: MY_DATA.contact.linkedin,
+        logo: Icons.linkedin
+    },
+    {
+        name: "Twitter",
+        href: MY_DATA.contact.twitter,
+        logo: Icons.twitter
+    },
+    {
+        name: "Bluesky",
+        href: MY_DATA.contact.bluesky,
+        logo: Icons.bluesky
+    }
+];
 
 export default function SiteFooter() {
-    const socials = [
-        {
-            name: "GitHub",
-            url: MY_DATA.contact.github,
-            logo: Icons.github
-        },
-        {
-            name: "LinkedIn",
-            url: MY_DATA.contact.linkedin,
-            logo: Icons.linkedin
-        },
-        {
-            name: "Twitter",
-            url: MY_DATA.contact.twitter,
-            logo: Icons.twitter
-        },
-        {
-            name: "Bluesky",
-            url: MY_DATA.contact.bluesky,
-            logo: Icons.bluesky
-        }
-    ];
     return (
-        <footer className="p-12 relative border rounded-xl overflow-hidden">
-            <Marquee duration={20} repeat={2} direction="left" className="w-full font-light mb-16">
-                {data.map((item, index) => (
-                    <div key={index} className="flex flex-col items-center">
-                        <span className="text-3xl text-gray-600">{item}</span>
-                    </div>
-                ))}
-            </Marquee>
+        <footer className="p-12 mb-12 relative border rounded-xl overflow-hidden">
+            <div className="w-full mb-8 font-medium">Get in touch ...</div>
 
             {/* Main footer content */}
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-                {/* Social links */}
-                <div className="flex gap-8">
-                    {socials.map((option, index) => (
-                        <Magnetic key={index}>
-                            <div className="group">
-                                <AnimatedLink
-                                    isExternal
-                                    animate
-                                    href={option.url}
-                                    className="grid place-items-center"
-                                >
-                                    {option.name}
-                                </AnimatedLink>
-                            </div>
-                        </Magnetic>
-                    ))}
-                </div>
+            <div className="flex items-center justify-between">
+                {/* Social Links */}
+                <Socials showLabel />
 
-                <Link
-                    href="#"
-                    className="group relative inline-flex items-center gap-2 rounded-full border border-black px-6 py-3 text-black transition-colors hover:bg-black hover:text-white"
-                >
-                    Happy Coding!
-                    <span className="size-6 rounded-full bg-black group-hover:bg-white transition-colors" />
-                </Link>
+                {/* Happy Coding Badge */}
+                <div className="flex items-center space-x-2 px-3 py-1.5 bg-gray-50 rounded-full border border-gray-200">
+                    <span className="text-sm font-medium text-gray-700">Happy Coding!</span>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                </div>
             </div>
         </footer>
     );

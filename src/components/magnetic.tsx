@@ -1,7 +1,7 @@
 "use client";
 
 import gsap from "gsap";
-import { useEffect, useRef, isValidElement, cloneElement } from "react";
+import { useEffect, useRef } from "react";
 
 type PropType = {
     children: React.ReactNode;
@@ -38,18 +38,15 @@ const Magnetic: React.FC<PropType> = ({ children }) => {
 
         return () => {
             ref.current?.removeEventListener("mousemove", handleMouseMove);
-            // eslint-disable-next-line react-hooks/exhaustive-deps
             ref.current?.removeEventListener("mouseleave", handleMouseLeave);
         };
     }, []);
 
-    const clonedElement = isValidElement(children) ? (
-        cloneElement(children as React.ReactElement<any>, { ref })
-    ) : (
-        <div />
+    return (
+        <div ref={ref} className="inline-block">
+            {children}
+        </div>
     );
-
-    return clonedElement;
 };
 
 export default Magnetic;

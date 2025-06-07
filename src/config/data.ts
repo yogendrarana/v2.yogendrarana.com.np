@@ -14,7 +14,7 @@ export const MY_DATA = {
         emails: ["yogendrarana4321@gmail.com", "yogendrarana.mail@gmail.com"],
         github: "https://github.com/yogendrarana",
         linkedin: "https://www.linkedin.com/in/yogendra-rana/",
-        twitter: "https://twitter.com/yoogendra_rana",
+        twitter: "https://twitter.com/yooogendra_rana",
         bluesky: "https://bsky.app/profile/yogendrarana.bsky.social"
     },
     education: [

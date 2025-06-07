@@ -2,7 +2,7 @@
 
 import { MapPin } from "lucide-react";
 import { motion } from "framer-motion";
-import { MY_DATA } from "@/data/my-data";
+import { MY_DATA } from "@/config/data";
 import { GridPattern } from "../grid-pattern";
 
 export default function Hero() {
@@ -13,7 +13,7 @@ export default function Hero() {
             <div className="flex flex-col items-center">
                 <div className="px-3 py-1 text-sm inline-flex items-center rounded-full border">
                     <MapPin className="mr-2 h-3 w-3" />
-                    <div className="text-sm">Web Developer from Nepal</div>
+                    <div className="text-sm">Pokhara, Nepal</div>
                 </div>
 
                 <div className="text-center font-bold">
@@ -32,7 +32,7 @@ export default function Hero() {
             </div>
 
             <GridPattern
-                className="fill-neutral-100 stroke-neutral-700/5 absolute inset-x-0 -top-14 -z-10 h-full w-full [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)] dark:fill-secondary/30 dark:stroke-secondary/30"
+                className="fill-neutral-100 stroke-neutral-700/5 absolute inset-x-0 -top-14 -z-10 h-full w-full mask-[linear-gradient(to_bottom_left,white_40%,transparent_50%)] dark:fill-secondary/30 dark:stroke-secondary/30"
                 yOffset={-96}
                 interactive
             />

@@ -29,9 +29,9 @@ export default function AnimatedLink(props: Props) {
                     hover:font-bold
                     
                     before:content-['']
-                    before:h-[0.5rem] before:w-[0.5rem]
+                    before:h-2 before:w-2
                     before:bg-black before:rounded-full
-                    before:absolute before:bottom-[-1rem] before:left-1/2 before:-translate-x-1/2
+                    before:absolute before:-bottom-4 before:left-1/2 before:-translate-x-1/2
                     before:scale-0 group-hover:before:scale-100
                     before:transition-all before:ease before:duration-300`
             )}

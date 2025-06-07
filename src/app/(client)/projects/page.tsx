@@ -1,14 +1,15 @@
 import React from "react";
-import { MY_DATA } from "@/data/my-data";
-import ProjectCard from "@/components/project-card";
 import Link from "next/link";
 import { ArrowRight, Cable } from "lucide-react";
+
+import { MY_DATA } from "@/config/data";
+import ProjectCard from "@/components/project-card";
 
 function Page() {
     const projects = MY_DATA.projects;
     return (
         <div className="flex flex-col gap-4">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center mt-8">
                 <div className="text-sm text-gray-600 flex gap-2 items-center">
                     <Cable size={14} strokeWidth={2} />
                     {projects.length} Projects

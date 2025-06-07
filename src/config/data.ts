@@ -110,7 +110,7 @@ export const MY_DATA = {
         },
         {
             question: "My Experience",
-            answer: "I began my professional career in early 2023 as frontend React.js intern . Since then I have worked mostly as a full stack developer."
+            answer: "I began my professional career in early 2023. I started as a frontend React.js intern. Since then I have worked mostly as a full stack developer."
         },
         {
             question: "My Education",

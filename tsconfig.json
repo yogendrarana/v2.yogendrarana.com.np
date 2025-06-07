@@ -33,7 +33,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/(client)/blog/page.mdx"
   ],
   "exclude": [
     "node_modules"

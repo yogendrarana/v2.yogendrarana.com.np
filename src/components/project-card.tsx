@@ -14,7 +14,7 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
     return (
-        <div className="p-4 relative flex flex-col rounded-md border shadow-sm overflow-hidden bg-white dark:border-neutral-800">
+        <div className="p-4 relative flex flex-col rounded-md border overflow-hidden bg-white dark:border-neutral-800">
             <div className="flex flex-col gap-2 justify-between">
                 <div className="w-full justify-between items-center flex space-x-[10px]">
                     <div className="flex items-center gap-2">

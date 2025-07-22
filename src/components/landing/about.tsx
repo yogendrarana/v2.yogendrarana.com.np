@@ -6,7 +6,7 @@ import { AccordionContent, AccordionItem, AccordionTrigger, Accordion } from "..
 
 const About = () => {
     return (
-        <div className="p-2 border rounded-lg bg-white shadow-sm flex flex-col justify-center overflow-hidden">
+        <div className="p-2 border rounded-lg bg-white flex flex-col justify-center overflow-hidden">
             <div className="p-4 sm:p-10 md:p-14 bg-gray-100 rounded-lg flex flex-col gap-8">
                 <div className="border-b">
                     <div className="font-bold uppercase">

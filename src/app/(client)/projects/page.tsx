@@ -29,7 +29,7 @@ function Page() {
                 </Link>
             </div>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 mb-4">
                 {projects.map((p, idx) => (
                     <ProjectCard key={idx} project={p} />
                 ))}

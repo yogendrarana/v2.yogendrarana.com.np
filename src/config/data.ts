@@ -70,6 +70,14 @@ export const MY_DATA = {
             githubLink: "https://github.com/yogendrarana/craftui"
         },
         {
+            title: "Make Your Meme",
+            techStack: ["Next.js", "Tailwind CSS", "Radix UI"],
+            description: "Create memes in seconds",
+            image: LightBulb,
+            liveLink: "https://makeyourmeme.vercel.app/",
+            githubLink: "https://github.com/yogendrarana/makeyourmeme"
+        },
+        {
             title: "Feedmo",
             techStack: ["Next.js", "Radix UI", "Shad CN", "Auth.js", "MongoDB", "Resend", "Stripe"],
             description:
@@ -87,20 +95,20 @@ export const MY_DATA = {
             githubLink: "https://github.com/yogendrarana/swift"
         },
         {
-            title: "Artsy Web Gallery",
-            techStack: ["React.js", "Redux Toolkit", "Express.js", "MongoDB", "Stripe", "Khalti"],
-            description: "A web platform for art enthusiasts to buy and sell art.",
-            image: ArtsyLogo,
-            liveLink: "https://artsy-art-gallery.vercel.app/",
-            githubLink: "https://github.com/yogendrarana/artsy"
-        },
-        {
             title: "Ecommerce Website",
             techStack: ["React.js", "Zustand", "Framer Motion"],
             description: "A minimal frontend only ecommerce website.",
             image: "",
             liveLink: "https://react-web-ecommerce.vercel.app/",
             githubLink: "https://github.com/yogendrarana/react-ecommerce"
+        },
+        {
+            title: "Artsy Web Gallery",
+            techStack: ["React.js", "Redux Toolkit", "Express.js", "MongoDB", "Stripe", "Khalti"],
+            description: "A web platform for art enthusiasts to buy and sell art.",
+            image: ArtsyLogo,
+            liveLink: "https://artsy-art-gallery.vercel.app/",
+            githubLink: "https://github.com/yogendrarana/artsy"
         }
     ],
     faq: [
@@ -110,11 +118,11 @@ export const MY_DATA = {
         },
         {
             question: "My Experience",
-            answer: "I began my professional career in early 2023. I started as a frontend React.js intern. Since then I have worked mostly as a full stack developer."
+            answer: "I began my professional career in early 2023. I started as a frontend React.js intern. Since then I have worked mostly as a full stack JS/TS developer."
         },
         {
             question: "My Education",
             answer: "B.Sc. in Computer Science and Information Technology, Tribhuvan University, Nepal."
-        },
+        }
     ]
 };
